@@ -8,13 +8,26 @@
     <link rel="shortcut icon" href="website.png" type="image/x-icon">
 </head>
 <body>
-    
-    <header>header</header>
-    <h1>shop minimap</h1>
-    <p>toto je minimapa do hoci akeho obchodu</p>
+    <h1>header</header>
+    <h1>simple shop minimap</h1>
+    <p>toto je minimapa do hoci akeho obchodu ktore tam ludia daju  </p>
 
-
+    <form action="/1.html">
+        <label for="store">Choose store witch you want to see:</label>
+        <select name="store" id="store">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <br><br>
+          <input type="submit" value="submit">
+      </form>
     <footer>footer</footer>
-    <script src="main.js"></script>
+    <div class="cursor">
+      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+      </canvas>
+    </div>
+    <script src="canvas.js"></script>
 </body>
 </html>
