@@ -3,3 +3,7 @@ body{
     color: rgb(223, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
 }
+button{
+    color: black;
+    background-color: rgb(223, 223, 223);
+}
